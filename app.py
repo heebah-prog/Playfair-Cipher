@@ -1,4 +1,6 @@
-# Create a 5x5 matrix using a secret key
+
+# Step 1, Creating a 5x5 Matrix using the secret key provided
+
 def create_matrix(key):
     key = key.upper()
     matrix = [[0 for i in range (5)] for j in range(5)]
